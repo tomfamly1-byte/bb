@@ -1,0 +1,13 @@
+div{
+    width: 35px;
+    height: 35px;
+    margin-top: 400px;
+    background-color: aqua;
+ animation: box infinite 35s 0.1s ;
+}
+@keyframes box{
+    100%{
+        margin-left: 100%;
+     transform: rotate(2000deg);
+    }
+}
